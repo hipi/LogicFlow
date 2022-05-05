@@ -13,7 +13,7 @@ export type GridOptions = {
    */
   visible?: boolean,
 
-  graphModel?: GraphModel,
+  // graphModel?: GraphModel,
   /**
    * 网格类型
    * 'dot' || 'mesh'

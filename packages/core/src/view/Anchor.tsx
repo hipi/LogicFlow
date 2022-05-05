@@ -18,9 +18,9 @@ interface IProps {
   // id?: string;
   anchorData: AnchorConfig,
   node: BaseNode,
-  style?: Record<string, any>;
-  hoverStyle?: Record<string, any>;
-  edgeStyle?: Record<string, any>;
+  // style?: Record<string, any>;
+  // hoverStyle?: Record<string, any>;
+  // edgeStyle?: Record<string, any>;
   anchorIndex: number;
   graphModel: GraphModel;
   nodeModel: BaseNodeModel;

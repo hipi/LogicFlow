@@ -83,7 +83,7 @@ const vm = new Vue({
     },
     renderTableLu(instance) {
       const tableData = instance.getFlowData('fetchData1')
-      this.tableData = tableData;
+      this.tableData = tableData || [];
       instance.next();
     },
     dialogCancel() {

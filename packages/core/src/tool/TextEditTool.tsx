@@ -17,7 +17,7 @@ type Style = {
 
 type IProps = {
   graphModel: GraphModel;
-  logicFlow: LogicFlow;
+  // logicFlow: LogicFlow;
 };
 
 type IState = {

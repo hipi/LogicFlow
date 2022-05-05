@@ -13,7 +13,7 @@ interface IProps {
   x: number;
   y: number;
   type: AdjustType;
-  id?: string;
+  // id?: string;
   graphModel: GraphModel;
   edgeModel: BaseEdgeModel;
 }

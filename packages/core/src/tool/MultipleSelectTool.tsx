@@ -11,7 +11,7 @@ import { StepDrag } from '../util/drag';
 
 type IProps = {
   graphModel: GraphModel;
-  logicFlow: LogicFlow;
+  // logicFlow: LogicFlow;
 };
 @observer
 export default class MultipleSelect extends Component<IProps> {
