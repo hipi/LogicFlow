@@ -10,6 +10,9 @@
     "module": "es2020",
     "moduleResolution": "node",
     "skipLibCheck": true,
+    "lib": [
+      "es2016"
+    ],
     "target": "es5",
     "resolveJsonModule": true,
     "maxNodeModuleJsDepth": 5,
