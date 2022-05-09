@@ -1,0 +1,126 @@
+ /* editor and canvas */
+.editor {
+  width: 100%;
+  /* height: 100%; */
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #DCDFE6;
+}
+.canvas {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+ /* widgets panel */
+.panel {
+  width: 273px;
+  height: 100%;
+  background: #FFFFFF;
+  flex-shrink: 0;
+  flex-grow: 0;
+  box-shadow: 0 2px 12px 0 rgba(31,50,82,0.12);
+  overflow: auto;
+}
+
+ /* pc canvas */
+.facile_pc {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 0 20px;
+  justify-content: center;
+}
+
+.facile_canvas {
+  box-shadow: 0 2px 12px 0 rgb(31 50 82 / 12%);
+  width: 100%;
+  background: #FFFFFF;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.facile_brick_list {
+  padding: 5px;
+}
+
+.list-item {
+  position: relative;
+}
+.actived-item {
+  background: rgb(228, 229, 255);
+}
+.error-item {
+  border: 2px solid rgb(252, 145, 83);
+}
+
+.list-item-delete {
+  content: "";
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background: url('https://s3-gzpu.didistatic.com/tiyan-base-store/form-editor/delete%20%282%29.png') center center no-repeat;
+  background-size: cover;
+}
+
+/* setting panel */
+.panel {
+  width: 273px;
+  height: 100%;
+  overflow-y: auto;
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(31,50,82,0.12);
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.facile_panel {
+  padding: 16px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.settingTips {
+  text-align: center;
+}
+
+.settingTabs {
+  display: inline-block;
+  border: 1px solid #2961EF;
+  border-radius: 2px;
+  margin: 12px auto;
+  word-spacing: -1em;
+}
+
+.facile_tips {
+  position: relative;
+  width: 120px;
+  line-height: 28px;
+  font-size: 14px;
+  color: rgb(86, 87, 89);
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  word-spacing: 0;
+}
+
+.facile_tips.actived {
+  background: rgba(41,97,239,0.08);
+  color: #2961EF;
+  font-weight: 500;
+}
+
+.split-line::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 28px;
+  display: block;
+  background: #2961EF;
+  top: 0px;
+}

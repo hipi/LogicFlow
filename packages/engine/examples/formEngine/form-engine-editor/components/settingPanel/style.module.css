@@ -1,0 +1,55 @@
+.panel {
+  width: 273px;
+  height: 100%;
+  overflow-y: auto;
+  background: #FFFFFF;
+  box-shadow: 0 2px 12px 0 rgba(31,50,82,0.12);
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.facile_panel {
+  padding: 16px;
+  font-size: 14px;
+  text-align: left;
+}
+
+.settingTips {
+  text-align: center;
+}
+
+.settingTabs {
+  display: inline-block;
+  border: 1px solid #2961EF;
+  border-radius: 2px;
+  margin: 12px auto;
+  word-spacing: -1em;
+}
+
+.facile_tips {
+  position: relative;
+  width: 120px;
+  line-height: 28px;
+  font-size: 14px;
+  color: rgb(86, 87, 89);
+  text-align: center;
+  cursor: pointer;
+  display: inline-block;
+  word-spacing: 0;
+}
+
+.facile_tips.actived {
+  background: rgba(41,97,239,0.08);
+  color: #2961EF;
+  font-weight: 500;
+}
+
+.split-line::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 28px;
+  display: block;
+  background: #2961EF;
+  top: 0px;
+}
