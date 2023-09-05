@@ -71,12 +71,12 @@ class Snapshot {
     );
   }
   /* 获取base64对象 */
-  getSnapshotBase64(backgroundColor: string) {
+  getSnapshotBase64(backgroundColor: string, encoderOptions: Number) {
     const svg = this.getSvgRootElement(this.lf);
     return new Promise((resolve) => {
       this.getCanvasData(svg, backgroundColor).then(
         (canvas: HTMLCanvasElement) => {
-          const base64 = canvas.toDataURL('image/png');
+          const base64 = canvas.toDataURL('image/png', encoderOptions);
           // 输出图片数据以及图片宽高
           resolve({ data: base64, width: canvas.width, height: canvas.height });
         },
